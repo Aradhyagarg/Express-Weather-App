@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{>links}}
+
+  <title>Weather app</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  {{>navbar}}
+
+  <!--main header-->
+
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <div class="col-md-6 col-12 main_header_right">
+            <figure>
+              <img src="images/m11.jpg" alt="aradhya" class="img-fluid" title="Weathery" width="82%">
+            </figure>
+          </div>
+          <div class="col-md-6 col-12 main_header_left">
+            <p>Hi I am Aradhya</p>
+            <h1>I AM A <span class="text_color">MERN STACK</span> DEVELOPER AND <span class="text_color"> FREELANCER </span></h1>
+            <a href="/weather"><button>ABOUT ME</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  {{>footer}}
+</body>
+
+</html>
